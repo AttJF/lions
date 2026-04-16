@@ -1,4 +1,5 @@
-const prompt = require('prompt-sync')()
+import PromptSync from "prompt-sync"
+const prompt = PromptSync()
 let b 
 let result = 0
 let op1
@@ -36,22 +37,22 @@ op2=parseFloat(prompt('proximo valor'))
 op1=result
 }
 
-function soma(op1,op2){
+export function soma(op1,op2){
     return op1+op2
 }
-function minus(op1,op2){
+export function minus(op1,op2){
     return op1-op2
 }
-function div(op1,op2){
+export function div(op1,op2){
     if(op2==0){
         console.log("invalid operation")
         return 0
     }
     return op1/op2
 }
-function times(op1,op2){
+export function times(op1,op2){
     return op1*op2
 }
-function perc(op1,op2){
+export function perc(op1,op2){
     return (op1*op2)/100
 }

@@ -1,0 +1,8 @@
+1.Adm Atendendo uma Solicitação de serviço, continua sem trazer informações importantes que o usuario informou, tal como modalidade, 
+condição de pagamento
+2.Usar o calendario interativo para informar campo Data/Hora de Início * acarreta em erro.
+3.Não esta implementado as condições de encerramento automatico (bater o valor maxima ou bater o valor minimo + fim do prazo )
+4.No mobile, não esta trazendo as informações completas para o usuario.
+5.Fornecedor atendendo uma solicitação de produto, campo condição de pagamento não esta sendo informado
+6.Na aba minhas adesões, não esta mostrando o produto correto
+7.
